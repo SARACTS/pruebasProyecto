@@ -1,0 +1,8 @@
+class PruebaCorreoController < ApplicationController
+  def enviar_correo 
+   # @persona =  Persona.create({ nombre: 'Sara', email: 'saracortescarnero@gmail.com', email_confirmation: 'saracortescarnero@gmail.com'})
+    
+  #  ActionCorreo.email(@persona).deliver
+   end
+  
+end

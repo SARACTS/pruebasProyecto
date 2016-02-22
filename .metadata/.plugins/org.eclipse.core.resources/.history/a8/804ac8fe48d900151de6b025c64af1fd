@@ -1,0 +1,10 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta content ='text/html; charset=UTF-8' http-equiv='Content-Type'content="" />
+	</head>
+	
+	<body>
+		<h1>Bienvenido a TalentumEmpleo, <%=@user.nombre%></h1>
+	</body>	
+</html>

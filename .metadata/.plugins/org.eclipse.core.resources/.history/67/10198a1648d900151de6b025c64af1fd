@@ -1,0 +1,10 @@
+class ActionCorreo < ApplicationMailer
+  default from: 'sara@jlcortes.es'
+  
+  def bienvenido_email(user)
+    @user = user
+    @url= 'http://www.talentumempleo.com/'
+    mail(to: @user.mail, subject: 'Aprende a programar con TalentumEmpleo')
+  end
+end
+

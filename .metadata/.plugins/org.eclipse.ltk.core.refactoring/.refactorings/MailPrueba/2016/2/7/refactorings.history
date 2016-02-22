@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;MailPrueba/app/mailers/example_mailer.rb&apos; to &apos;user_mailer_preview.rb&apos;" description="Rename resource &apos;example_mailer.rb&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="app/mailers/example_mailer.rb" name="user_mailer_preview.rb" stamp="1456077516505" updateReferences="true"/>
+</session>

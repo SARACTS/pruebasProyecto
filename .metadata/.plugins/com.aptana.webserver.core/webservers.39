@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<servers>
+<server host="0.0.0.0" port="3000" type="org.radrails.rails.railsServer">
+<name>MailPrueba</name>
+</server>
+<server host="0.0.0.0" port="3000" type="org.radrails.rails.railsServer">
+<name>MailPrueba</name>
+</server>
+<server host="0.0.0.0" port="3000" project="C:/Users/Arranque 1/Desktop/pruebas-master/MailSara" type="org.radrails.rails.railsServer">
+<name>MailSara</name>
+</server>
+</servers>

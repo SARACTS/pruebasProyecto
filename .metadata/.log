@@ -1,0 +1,1070 @@
+!SESSION 2016-02-21 17:16:06.371 -----------------------------------------------
+eclipse.buildId=3.6.1.201410201044
+java.version=1.8.0_73
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_ES
+Command-line arguments:  -os win32 -ws win32 -arch x86 -data F:\pruebas
+
+!ENTRY org.eclipse.core.jobs 2 2 2016-02-21 17:17:12.978
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: com.aptana.usage.internal.DefaultAnalyticsEventHandler$1
+!SESSION 2016-02-21 17:18:08.100 -----------------------------------------------
+eclipse.buildId=3.6.1.201410201044
+java.version=1.8.0_73
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_ES
+Command-line arguments:  -os win32 -ws win32 -arch x86 -data F:\pruebas
+
+!ENTRY com.aptana.ruby.core 4 0 2016-02-21 17:18:49.939
+!MESSAGE (eval):1:in `block in get_classes': Use RbConfig instead of obsolete and deprecated Config.
+(eval):1: warning: variable $= is no longer effective
+(eval):1: warning: variable $KCODE is no longer effective
+(eval):1: warning: variable $KCODE is no longer effective
+C:/Users/Manu P/AppData/Roaming/Appcelerator/Aptana Studio/configuration/org.eclipse.osgi/bundles/90/1/.cp/ruby/core_stubber.rb:180:in `eval': Is a directory @ rb_sysopen - F:\pruebas\.metadata\.plugins\com.aptana.ruby.core\1555772558\4 (Errno::EISDIR)
+	from C:/Users/Manu P/AppData/Roaming/Appcelerator/Aptana Studio/configuration/org.eclipse.osgi/bundles/90/1/.cp/ruby/core_stubber.rb:180:in `eval'
+	from C:/Users/Manu P/AppData/Roaming/Appcelerator/Aptana Studio/configuration/org.eclipse.osgi/bundles/90/1/.cp/ruby/core_stubber.rb:180:in `block (3 levels) in <main>'
+	from C:/Users/Manu P/AppData/Roaming/Appcelerator/Aptana Studio/configuration/org.eclipse.osgi/bundles/90/1/.cp/ruby/core_stubber.rb:179:in `each'
+	from C:/Users/Manu P/AppData/Roaming/Appcelerator/Aptana Studio/configuration/org.eclipse.osgi/bundles/90/1/.cp/ruby/core_stubber.rb:179:in `block (2 levels) in <main>'
+	from C:/Users/Manu P/AppData/Roaming/Appcelerator/Aptana Studio/configuration/org.eclipse.osgi/bundles/90/1/.cp/ruby/core_stubber.rb:178:in `open'
+	from C:/Users/Manu P/AppData/Roaming/Appcelerator/Aptana Studio/configuration/org.eclipse.osgi/bundles/90/1/.cp/ruby/core_stubber.rb:178:in `block in <main>'
+	from C:/Users/Manu P/AppData/Roaming/Appcelerator/Aptana Studio/configuration/org.eclipse.osgi/bundles/90/1/.cp/ruby/core_stubber.rb:152:in `each'
+	from C:/Users/Manu P/AppData/Roaming/Appcelerator/Aptana Studio/configuration/org.eclipse.osgi/bundles/90/1/.cp/ruby/core_stubber.rb:152:in `<main>'
+
+
+!ENTRY com.aptana.git.core 4 0 2016-02-21 17:18:50.402
+!MESSAGE (Build 3.6.1.201410201044) [ERROR]  Errors occurred while grabbing changed file listings
+
+!ENTRY com.aptana.ruby.core 4 0 2016-02-21 17:18:58.409
+!MESSAGE (Build 3.6.1.201410201044) [ERROR]  Not supported yet.
+!STACK 0
+java.lang.UnsupportedOperationException: Not supported yet.
+	at org.jrubyparser.ast.LambdaNode.accept(LambdaNode.java:58)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:37)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitHashNode(InOrderVisitor.java:414)
+	at org.jrubyparser.ast.HashNode.accept(HashNode.java:57)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:37)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitFCallNode(InOrderVisitor.java:350)
+	at com.aptana.ruby.core.ast.SourceElementVisitor.visitFCallNode(SourceElementVisitor.java:609)
+	at org.jrubyparser.ast.FCallNode.accept(FCallNode.java:66)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitNewlineNode(InOrderVisitor.java:525)
+	at org.jrubyparser.ast.NewlineNode.accept(NewlineNode.java:67)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:37)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitIfNode(InOrderVisitor.java:438)
+	at org.jrubyparser.ast.IfNode.accept(IfNode.java:65)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitNewlineNode(InOrderVisitor.java:525)
+	at org.jrubyparser.ast.NewlineNode.accept(NewlineNode.java:67)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:37)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitDefnNode(InOrderVisitor.java:299)
+	at com.aptana.ruby.core.ast.SourceElementVisitor.visitDefnNode(SourceElementVisitor.java:346)
+	at org.jrubyparser.ast.DefnNode.accept(DefnNode.java:51)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitNewlineNode(InOrderVisitor.java:525)
+	at org.jrubyparser.ast.NewlineNode.accept(NewlineNode.java:67)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitModuleNode(InOrderVisitor.java:517)
+	at com.aptana.ruby.core.ast.SourceElementVisitor.visitModuleNode(SourceElementVisitor.java:824)
+	at org.jrubyparser.ast.ModuleNode.accept(ModuleNode.java:66)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitNewlineNode(InOrderVisitor.java:525)
+	at org.jrubyparser.ast.NewlineNode.accept(NewlineNode.java:67)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:37)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitModuleNode(InOrderVisitor.java:517)
+	at com.aptana.ruby.core.ast.SourceElementVisitor.visitModuleNode(SourceElementVisitor.java:824)
+	at org.jrubyparser.ast.ModuleNode.accept(ModuleNode.java:66)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitNewlineNode(InOrderVisitor.java:525)
+	at org.jrubyparser.ast.NewlineNode.accept(NewlineNode.java:67)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitModuleNode(InOrderVisitor.java:517)
+	at com.aptana.ruby.core.ast.SourceElementVisitor.visitModuleNode(SourceElementVisitor.java:824)
+	at org.jrubyparser.ast.ModuleNode.accept(ModuleNode.java:66)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitNewlineNode(InOrderVisitor.java:525)
+	at org.jrubyparser.ast.NewlineNode.accept(NewlineNode.java:67)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitRootNode(InOrderVisitor.java:668)
+	at com.aptana.ruby.core.ast.SourceElementVisitor.visitRootNode(SourceElementVisitor.java:848)
+	at org.jrubyparser.ast.RootNode.accept(RootNode.java:84)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.internal.core.index.RubyFileIndexingParticipant.indexAST(RubyFileIndexingParticipant.java:73)
+	at com.aptana.ruby.internal.core.index.RubyFileIndexingParticipant.indexSource(RubyFileIndexingParticipant.java:61)
+	at com.aptana.ruby.internal.core.index.RubyFileIndexingParticipant.index(RubyFileIndexingParticipant.java:37)
+	at com.aptana.index.core.IndexRequestJob.indexFileStores(IndexRequestJob.java:205)
+	at com.aptana.index.core.IndexContainerJob.run(IndexContainerJob.java:114)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.aptana.ruby.core 4 0 2016-02-21 17:19:02.380
+!MESSAGE (Build 3.6.1.201410201044) [ERROR]  Not supported yet.
+!STACK 0
+java.lang.UnsupportedOperationException: Not supported yet.
+	at org.jrubyparser.ast.LambdaNode.accept(LambdaNode.java:58)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:37)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitHashNode(InOrderVisitor.java:414)
+	at org.jrubyparser.ast.HashNode.accept(HashNode.java:57)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:37)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitFCallNode(InOrderVisitor.java:350)
+	at com.aptana.ruby.core.ast.SourceElementVisitor.visitFCallNode(SourceElementVisitor.java:609)
+	at org.jrubyparser.ast.FCallNode.accept(FCallNode.java:66)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitNewlineNode(InOrderVisitor.java:525)
+	at org.jrubyparser.ast.NewlineNode.accept(NewlineNode.java:67)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitIterNode(InOrderVisitor.java:448)
+	at com.aptana.ruby.core.ast.SourceElementVisitor.visitIterNode(SourceElementVisitor.java:805)
+	at org.jrubyparser.ast.IterNode.accept(IterNode.java:71)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitFCallNode(InOrderVisitor.java:351)
+	at com.aptana.ruby.core.ast.SourceElementVisitor.visitFCallNode(SourceElementVisitor.java:609)
+	at org.jrubyparser.ast.FCallNode.accept(FCallNode.java:66)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitNewlineNode(InOrderVisitor.java:525)
+	at org.jrubyparser.ast.NewlineNode.accept(NewlineNode.java:67)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:37)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitModuleNode(InOrderVisitor.java:517)
+	at com.aptana.ruby.core.ast.SourceElementVisitor.visitModuleNode(SourceElementVisitor.java:824)
+	at org.jrubyparser.ast.ModuleNode.accept(ModuleNode.java:66)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitNewlineNode(InOrderVisitor.java:525)
+	at org.jrubyparser.ast.NewlineNode.accept(NewlineNode.java:67)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitModuleNode(InOrderVisitor.java:517)
+	at com.aptana.ruby.core.ast.SourceElementVisitor.visitModuleNode(SourceElementVisitor.java:824)
+	at org.jrubyparser.ast.ModuleNode.accept(ModuleNode.java:66)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitNewlineNode(InOrderVisitor.java:525)
+	at org.jrubyparser.ast.NewlineNode.accept(NewlineNode.java:67)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitRootNode(InOrderVisitor.java:668)
+	at com.aptana.ruby.core.ast.SourceElementVisitor.visitRootNode(SourceElementVisitor.java:848)
+	at org.jrubyparser.ast.RootNode.accept(RootNode.java:84)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.internal.core.index.RubyFileIndexingParticipant.indexAST(RubyFileIndexingParticipant.java:73)
+	at com.aptana.ruby.internal.core.index.RubyFileIndexingParticipant.indexSource(RubyFileIndexingParticipant.java:61)
+	at com.aptana.ruby.internal.core.index.RubyFileIndexingParticipant.index(RubyFileIndexingParticipant.java:37)
+	at com.aptana.index.core.IndexRequestJob.indexFileStores(IndexRequestJob.java:205)
+	at com.aptana.index.core.IndexContainerJob.run(IndexContainerJob.java:114)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.aptana.ruby.core 4 0 2016-02-21 17:19:07.020
+!MESSAGE (Build 3.6.1.201410201044) [ERROR]  Not supported yet.
+!STACK 0
+java.lang.UnsupportedOperationException: Not supported yet.
+	at org.jrubyparser.ast.LambdaNode.accept(LambdaNode.java:58)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:37)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitAttrAssignNode(InOrderVisitor.java:96)
+	at org.jrubyparser.ast.AttrAssignNode.accept(AttrAssignNode.java:67)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitNewlineNode(InOrderVisitor.java:525)
+	at org.jrubyparser.ast.NewlineNode.accept(NewlineNode.java:67)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:37)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitDefnNode(InOrderVisitor.java:299)
+	at com.aptana.ruby.core.ast.SourceElementVisitor.visitDefnNode(SourceElementVisitor.java:346)
+	at org.jrubyparser.ast.DefnNode.accept(DefnNode.java:51)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitNewlineNode(InOrderVisitor.java:525)
+	at org.jrubyparser.ast.NewlineNode.accept(NewlineNode.java:67)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:37)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitClassNode(InOrderVisitor.java:213)
+	at com.aptana.ruby.core.ast.SourceElementVisitor.visitClassNode(SourceElementVisitor.java:260)
+	at org.jrubyparser.ast.ClassNode.accept(ClassNode.java:68)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitNewlineNode(InOrderVisitor.java:525)
+	at org.jrubyparser.ast.NewlineNode.accept(NewlineNode.java:67)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:37)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitClassNode(InOrderVisitor.java:213)
+	at com.aptana.ruby.core.ast.SourceElementVisitor.visitClassNode(SourceElementVisitor.java:260)
+	at org.jrubyparser.ast.ClassNode.accept(ClassNode.java:68)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitNewlineNode(InOrderVisitor.java:525)
+	at org.jrubyparser.ast.NewlineNode.accept(NewlineNode.java:67)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitRootNode(InOrderVisitor.java:668)
+	at com.aptana.ruby.core.ast.SourceElementVisitor.visitRootNode(SourceElementVisitor.java:848)
+	at org.jrubyparser.ast.RootNode.accept(RootNode.java:84)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.internal.core.index.RubyFileIndexingParticipant.indexAST(RubyFileIndexingParticipant.java:73)
+	at com.aptana.ruby.internal.core.index.RubyFileIndexingParticipant.indexSource(RubyFileIndexingParticipant.java:61)
+	at com.aptana.ruby.internal.core.index.RubyFileIndexingParticipant.index(RubyFileIndexingParticipant.java:37)
+	at com.aptana.index.core.IndexRequestJob.indexFileStores(IndexRequestJob.java:205)
+	at com.aptana.index.core.IndexContainerJob.run(IndexContainerJob.java:114)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.aptana.ruby.core 4 0 2016-02-21 17:19:07.552
+!MESSAGE (Build 3.6.1.201410201044) [ERROR]  Not supported yet.
+!STACK 0
+java.lang.UnsupportedOperationException: Not supported yet.
+	at org.jrubyparser.ast.LambdaNode.accept(LambdaNode.java:58)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:37)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitHashNode(InOrderVisitor.java:414)
+	at org.jrubyparser.ast.HashNode.accept(HashNode.java:57)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:37)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitFCallNode(InOrderVisitor.java:350)
+	at com.aptana.ruby.core.ast.SourceElementVisitor.visitFCallNode(SourceElementVisitor.java:609)
+	at org.jrubyparser.ast.FCallNode.accept(FCallNode.java:66)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitNewlineNode(InOrderVisitor.java:525)
+	at org.jrubyparser.ast.NewlineNode.accept(NewlineNode.java:67)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:37)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitIterNode(InOrderVisitor.java:448)
+	at com.aptana.ruby.core.ast.SourceElementVisitor.visitIterNode(SourceElementVisitor.java:805)
+	at org.jrubyparser.ast.IterNode.accept(IterNode.java:71)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitFCallNode(InOrderVisitor.java:351)
+	at com.aptana.ruby.core.ast.SourceElementVisitor.visitFCallNode(SourceElementVisitor.java:609)
+	at org.jrubyparser.ast.FCallNode.accept(FCallNode.java:66)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitNewlineNode(InOrderVisitor.java:525)
+	at org.jrubyparser.ast.NewlineNode.accept(NewlineNode.java:67)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:37)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitModuleNode(InOrderVisitor.java:517)
+	at com.aptana.ruby.core.ast.SourceElementVisitor.visitModuleNode(SourceElementVisitor.java:824)
+	at org.jrubyparser.ast.ModuleNode.accept(ModuleNode.java:66)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitNewlineNode(InOrderVisitor.java:525)
+	at org.jrubyparser.ast.NewlineNode.accept(NewlineNode.java:67)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitModuleNode(InOrderVisitor.java:517)
+	at com.aptana.ruby.core.ast.SourceElementVisitor.visitModuleNode(SourceElementVisitor.java:824)
+	at org.jrubyparser.ast.ModuleNode.accept(ModuleNode.java:66)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitNewlineNode(InOrderVisitor.java:525)
+	at org.jrubyparser.ast.NewlineNode.accept(NewlineNode.java:67)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitModuleNode(InOrderVisitor.java:517)
+	at com.aptana.ruby.core.ast.SourceElementVisitor.visitModuleNode(SourceElementVisitor.java:824)
+	at org.jrubyparser.ast.ModuleNode.accept(ModuleNode.java:66)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitNewlineNode(InOrderVisitor.java:525)
+	at org.jrubyparser.ast.NewlineNode.accept(NewlineNode.java:67)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitRootNode(InOrderVisitor.java:668)
+	at com.aptana.ruby.core.ast.SourceElementVisitor.visitRootNode(SourceElementVisitor.java:848)
+	at org.jrubyparser.ast.RootNode.accept(RootNode.java:84)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.internal.core.index.RubyFileIndexingParticipant.indexAST(RubyFileIndexingParticipant.java:73)
+	at com.aptana.ruby.internal.core.index.RubyFileIndexingParticipant.indexSource(RubyFileIndexingParticipant.java:61)
+	at com.aptana.ruby.internal.core.index.RubyFileIndexingParticipant.index(RubyFileIndexingParticipant.java:37)
+	at com.aptana.index.core.IndexRequestJob.indexFileStores(IndexRequestJob.java:205)
+	at com.aptana.index.core.IndexContainerJob.run(IndexContainerJob.java:114)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.aptana.ruby.core 4 0 2016-02-21 17:19:19.646
+!MESSAGE (Build 3.6.1.201410201044) [ERROR]  Not supported yet.
+!STACK 0
+java.lang.UnsupportedOperationException: Not supported yet.
+	at org.jrubyparser.ast.LambdaNode.accept(LambdaNode.java:58)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:37)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitFCallNode(InOrderVisitor.java:350)
+	at com.aptana.ruby.core.ast.SourceElementVisitor.visitFCallNode(SourceElementVisitor.java:609)
+	at org.jrubyparser.ast.FCallNode.accept(FCallNode.java:66)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitNewlineNode(InOrderVisitor.java:525)
+	at org.jrubyparser.ast.NewlineNode.accept(NewlineNode.java:67)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:37)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitClassNode(InOrderVisitor.java:213)
+	at com.aptana.ruby.core.ast.SourceElementVisitor.visitClassNode(SourceElementVisitor.java:260)
+	at org.jrubyparser.ast.ClassNode.accept(ClassNode.java:68)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitNewlineNode(InOrderVisitor.java:525)
+	at org.jrubyparser.ast.NewlineNode.accept(NewlineNode.java:67)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:37)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitRootNode(InOrderVisitor.java:668)
+	at com.aptana.ruby.core.ast.SourceElementVisitor.visitRootNode(SourceElementVisitor.java:848)
+	at org.jrubyparser.ast.RootNode.accept(RootNode.java:84)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.internal.core.index.RubyFileIndexingParticipant.indexAST(RubyFileIndexingParticipant.java:73)
+	at com.aptana.ruby.internal.core.index.RubyFileIndexingParticipant.indexSource(RubyFileIndexingParticipant.java:61)
+	at com.aptana.ruby.internal.core.index.RubyFileIndexingParticipant.index(RubyFileIndexingParticipant.java:37)
+	at com.aptana.index.core.IndexRequestJob.indexFileStores(IndexRequestJob.java:205)
+	at com.aptana.index.core.IndexContainerJob.run(IndexContainerJob.java:114)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.aptana.ruby.core 4 0 2016-02-21 17:19:25.019
+!MESSAGE (Build 3.6.1.201410201044) [ERROR]  Not supported yet.
+!STACK 0
+java.lang.UnsupportedOperationException: Not supported yet.
+	at org.jrubyparser.ast.LambdaNode.accept(LambdaNode.java:58)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:37)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitCallNode(InOrderVisitor.java:193)
+	at com.aptana.ruby.core.ast.SourceElementVisitor.visitCallNode(SourceElementVisitor.java:230)
+	at org.jrubyparser.ast.CallNode.accept(CallNode.java:70)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitNewlineNode(InOrderVisitor.java:525)
+	at org.jrubyparser.ast.NewlineNode.accept(NewlineNode.java:67)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:37)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitIterNode(InOrderVisitor.java:448)
+	at com.aptana.ruby.core.ast.SourceElementVisitor.visitIterNode(SourceElementVisitor.java:805)
+	at org.jrubyparser.ast.IterNode.accept(IterNode.java:71)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitFCallNode(InOrderVisitor.java:351)
+	at com.aptana.ruby.core.ast.SourceElementVisitor.visitFCallNode(SourceElementVisitor.java:609)
+	at org.jrubyparser.ast.FCallNode.accept(FCallNode.java:66)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitDAsgnNode(InOrderVisitor.java:243)
+	at com.aptana.ruby.core.ast.SourceElementVisitor.visitDAsgnNode(SourceElementVisitor.java:322)
+	at org.jrubyparser.ast.DAsgnNode.accept(DAsgnNode.java:62)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitNewlineNode(InOrderVisitor.java:525)
+	at org.jrubyparser.ast.NewlineNode.accept(NewlineNode.java:67)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:37)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitIterNode(InOrderVisitor.java:448)
+	at com.aptana.ruby.core.ast.SourceElementVisitor.visitIterNode(SourceElementVisitor.java:805)
+	at org.jrubyparser.ast.IterNode.accept(IterNode.java:71)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitFCallNode(InOrderVisitor.java:351)
+	at com.aptana.ruby.core.ast.SourceElementVisitor.visitFCallNode(SourceElementVisitor.java:609)
+	at org.jrubyparser.ast.FCallNode.accept(FCallNode.java:66)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitNewlineNode(InOrderVisitor.java:525)
+	at org.jrubyparser.ast.NewlineNode.accept(NewlineNode.java:67)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:37)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitClassNode(InOrderVisitor.java:213)
+	at com.aptana.ruby.core.ast.SourceElementVisitor.visitClassNode(SourceElementVisitor.java:260)
+	at org.jrubyparser.ast.ClassNode.accept(ClassNode.java:68)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitNewlineNode(InOrderVisitor.java:525)
+	at org.jrubyparser.ast.NewlineNode.accept(NewlineNode.java:67)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:37)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitRootNode(InOrderVisitor.java:668)
+	at com.aptana.ruby.core.ast.SourceElementVisitor.visitRootNode(SourceElementVisitor.java:848)
+	at org.jrubyparser.ast.RootNode.accept(RootNode.java:84)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.internal.core.index.RubyFileIndexingParticipant.indexAST(RubyFileIndexingParticipant.java:73)
+	at com.aptana.ruby.internal.core.index.RubyFileIndexingParticipant.indexSource(RubyFileIndexingParticipant.java:61)
+	at com.aptana.ruby.internal.core.index.RubyFileIndexingParticipant.index(RubyFileIndexingParticipant.java:37)
+	at com.aptana.index.core.IndexRequestJob.indexFileStores(IndexRequestJob.java:205)
+	at com.aptana.index.core.IndexContainerJob.run(IndexContainerJob.java:114)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.aptana.ruby.core 4 0 2016-02-21 17:19:28.577
+!MESSAGE (Build 3.6.1.201410201044) [ERROR]  Not supported yet.
+!STACK 0
+java.lang.UnsupportedOperationException: Not supported yet.
+	at org.jrubyparser.ast.LambdaNode.accept(LambdaNode.java:58)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:37)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitFCallNode(InOrderVisitor.java:350)
+	at com.aptana.ruby.core.ast.SourceElementVisitor.visitFCallNode(SourceElementVisitor.java:609)
+	at org.jrubyparser.ast.FCallNode.accept(FCallNode.java:66)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitNewlineNode(InOrderVisitor.java:525)
+	at org.jrubyparser.ast.NewlineNode.accept(NewlineNode.java:67)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:37)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitClassNode(InOrderVisitor.java:213)
+	at com.aptana.ruby.core.ast.SourceElementVisitor.visitClassNode(SourceElementVisitor.java:260)
+	at org.jrubyparser.ast.ClassNode.accept(ClassNode.java:68)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitNewlineNode(InOrderVisitor.java:525)
+	at org.jrubyparser.ast.NewlineNode.accept(NewlineNode.java:67)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitModuleNode(InOrderVisitor.java:517)
+	at com.aptana.ruby.core.ast.SourceElementVisitor.visitModuleNode(SourceElementVisitor.java:824)
+	at org.jrubyparser.ast.ModuleNode.accept(ModuleNode.java:66)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitNewlineNode(InOrderVisitor.java:525)
+	at org.jrubyparser.ast.NewlineNode.accept(NewlineNode.java:67)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitRootNode(InOrderVisitor.java:668)
+	at com.aptana.ruby.core.ast.SourceElementVisitor.visitRootNode(SourceElementVisitor.java:848)
+	at org.jrubyparser.ast.RootNode.accept(RootNode.java:84)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.internal.core.index.RubyFileIndexingParticipant.indexAST(RubyFileIndexingParticipant.java:73)
+	at com.aptana.ruby.internal.core.index.RubyFileIndexingParticipant.indexSource(RubyFileIndexingParticipant.java:61)
+	at com.aptana.ruby.internal.core.index.RubyFileIndexingParticipant.index(RubyFileIndexingParticipant.java:37)
+	at com.aptana.index.core.IndexRequestJob.indexFileStores(IndexRequestJob.java:205)
+	at com.aptana.index.core.IndexContainerJob.run(IndexContainerJob.java:114)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.aptana.ruby.core 4 0 2016-02-21 17:19:30.503
+!MESSAGE (Build 3.6.1.201410201044) [ERROR]  Not supported yet.
+!STACK 0
+java.lang.UnsupportedOperationException: Not supported yet.
+	at org.jrubyparser.ast.LambdaNode.accept(LambdaNode.java:58)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:37)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitHashNode(InOrderVisitor.java:414)
+	at org.jrubyparser.ast.HashNode.accept(HashNode.java:57)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:37)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitFCallNode(InOrderVisitor.java:350)
+	at com.aptana.ruby.core.ast.SourceElementVisitor.visitFCallNode(SourceElementVisitor.java:609)
+	at org.jrubyparser.ast.FCallNode.accept(FCallNode.java:66)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitNewlineNode(InOrderVisitor.java:525)
+	at org.jrubyparser.ast.NewlineNode.accept(NewlineNode.java:67)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitIterNode(InOrderVisitor.java:448)
+	at com.aptana.ruby.core.ast.SourceElementVisitor.visitIterNode(SourceElementVisitor.java:805)
+	at org.jrubyparser.ast.IterNode.accept(IterNode.java:71)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitFCallNode(InOrderVisitor.java:351)
+	at com.aptana.ruby.core.ast.SourceElementVisitor.visitFCallNode(SourceElementVisitor.java:609)
+	at org.jrubyparser.ast.FCallNode.accept(FCallNode.java:66)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitNewlineNode(InOrderVisitor.java:525)
+	at org.jrubyparser.ast.NewlineNode.accept(NewlineNode.java:67)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:37)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitModuleNode(InOrderVisitor.java:517)
+	at com.aptana.ruby.core.ast.SourceElementVisitor.visitModuleNode(SourceElementVisitor.java:824)
+	at org.jrubyparser.ast.ModuleNode.accept(ModuleNode.java:66)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitNewlineNode(InOrderVisitor.java:525)
+	at org.jrubyparser.ast.NewlineNode.accept(NewlineNode.java:67)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitModuleNode(InOrderVisitor.java:517)
+	at com.aptana.ruby.core.ast.SourceElementVisitor.visitModuleNode(SourceElementVisitor.java:824)
+	at org.jrubyparser.ast.ModuleNode.accept(ModuleNode.java:66)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitNewlineNode(InOrderVisitor.java:525)
+	at org.jrubyparser.ast.NewlineNode.accept(NewlineNode.java:67)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:37)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitRootNode(InOrderVisitor.java:668)
+	at com.aptana.ruby.core.ast.SourceElementVisitor.visitRootNode(SourceElementVisitor.java:848)
+	at org.jrubyparser.ast.RootNode.accept(RootNode.java:84)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.internal.core.index.RubyFileIndexingParticipant.indexAST(RubyFileIndexingParticipant.java:73)
+	at com.aptana.ruby.internal.core.index.RubyFileIndexingParticipant.indexSource(RubyFileIndexingParticipant.java:61)
+	at com.aptana.ruby.internal.core.index.RubyFileIndexingParticipant.index(RubyFileIndexingParticipant.java:37)
+	at com.aptana.index.core.IndexRequestJob.indexFileStores(IndexRequestJob.java:205)
+	at com.aptana.index.core.IndexContainerJob.run(IndexContainerJob.java:114)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.aptana.ruby.core 4 0 2016-02-21 17:19:32.314
+!MESSAGE (Build 3.6.1.201410201044) [ERROR]  -1
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: -1
+	at java.util.ArrayList.elementData(Unknown Source)
+	at java.util.ArrayList.get(Unknown Source)
+	at com.aptana.ruby.core.ast.SourceElementVisitor.addDelegatedMethods(SourceElementVisitor.java:699)
+	at com.aptana.ruby.core.ast.SourceElementVisitor.visitFCallNode(SourceElementVisitor.java:432)
+	at org.jrubyparser.ast.FCallNode.accept(FCallNode.java:66)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitNewlineNode(InOrderVisitor.java:525)
+	at org.jrubyparser.ast.NewlineNode.accept(NewlineNode.java:67)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:37)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitClassNode(InOrderVisitor.java:213)
+	at com.aptana.ruby.core.ast.SourceElementVisitor.visitClassNode(SourceElementVisitor.java:260)
+	at org.jrubyparser.ast.ClassNode.accept(ClassNode.java:68)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitNewlineNode(InOrderVisitor.java:525)
+	at org.jrubyparser.ast.NewlineNode.accept(NewlineNode.java:67)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitModuleNode(InOrderVisitor.java:517)
+	at com.aptana.ruby.core.ast.SourceElementVisitor.visitModuleNode(SourceElementVisitor.java:824)
+	at org.jrubyparser.ast.ModuleNode.accept(ModuleNode.java:66)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitNewlineNode(InOrderVisitor.java:525)
+	at org.jrubyparser.ast.NewlineNode.accept(NewlineNode.java:67)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitModuleNode(InOrderVisitor.java:517)
+	at com.aptana.ruby.core.ast.SourceElementVisitor.visitModuleNode(SourceElementVisitor.java:824)
+	at org.jrubyparser.ast.ModuleNode.accept(ModuleNode.java:66)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitNewlineNode(InOrderVisitor.java:525)
+	at org.jrubyparser.ast.NewlineNode.accept(NewlineNode.java:67)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitRootNode(InOrderVisitor.java:668)
+	at com.aptana.ruby.core.ast.SourceElementVisitor.visitRootNode(SourceElementVisitor.java:848)
+	at org.jrubyparser.ast.RootNode.accept(RootNode.java:84)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.internal.core.index.RubyFileIndexingParticipant.indexAST(RubyFileIndexingParticipant.java:73)
+	at com.aptana.ruby.internal.core.index.RubyFileIndexingParticipant.indexSource(RubyFileIndexingParticipant.java:61)
+	at com.aptana.ruby.internal.core.index.RubyFileIndexingParticipant.index(RubyFileIndexingParticipant.java:37)
+	at com.aptana.index.core.IndexRequestJob.indexFileStores(IndexRequestJob.java:205)
+	at com.aptana.index.core.IndexContainerJob.run(IndexContainerJob.java:114)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.aptana.ruby.core 4 0 2016-02-21 17:19:37.723
+!MESSAGE (Build 3.6.1.201410201044) [ERROR]  Not supported yet.
+!STACK 0
+java.lang.UnsupportedOperationException: Not supported yet.
+	at org.jrubyparser.ast.LambdaNode.accept(LambdaNode.java:58)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:37)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitCallNode(InOrderVisitor.java:193)
+	at com.aptana.ruby.core.ast.SourceElementVisitor.visitCallNode(SourceElementVisitor.java:230)
+	at org.jrubyparser.ast.CallNode.accept(CallNode.java:70)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitNewlineNode(InOrderVisitor.java:525)
+	at org.jrubyparser.ast.NewlineNode.accept(NewlineNode.java:67)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:37)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitIterNode(InOrderVisitor.java:448)
+	at com.aptana.ruby.core.ast.SourceElementVisitor.visitIterNode(SourceElementVisitor.java:805)
+	at org.jrubyparser.ast.IterNode.accept(IterNode.java:71)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitCallNode(InOrderVisitor.java:195)
+	at com.aptana.ruby.core.ast.SourceElementVisitor.visitCallNode(SourceElementVisitor.java:230)
+	at org.jrubyparser.ast.CallNode.accept(CallNode.java:70)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitNewlineNode(InOrderVisitor.java:525)
+	at org.jrubyparser.ast.NewlineNode.accept(NewlineNode.java:67)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:37)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitIterNode(InOrderVisitor.java:448)
+	at com.aptana.ruby.core.ast.SourceElementVisitor.visitIterNode(SourceElementVisitor.java:805)
+	at org.jrubyparser.ast.IterNode.accept(IterNode.java:71)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitCallNode(InOrderVisitor.java:195)
+	at com.aptana.ruby.core.ast.SourceElementVisitor.visitCallNode(SourceElementVisitor.java:230)
+	at org.jrubyparser.ast.CallNode.accept(CallNode.java:70)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitNewlineNode(InOrderVisitor.java:525)
+	at org.jrubyparser.ast.NewlineNode.accept(NewlineNode.java:67)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:37)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitIterNode(InOrderVisitor.java:448)
+	at com.aptana.ruby.core.ast.SourceElementVisitor.visitIterNode(SourceElementVisitor.java:805)
+	at org.jrubyparser.ast.IterNode.accept(IterNode.java:71)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitCallNode(InOrderVisitor.java:195)
+	at com.aptana.ruby.core.ast.SourceElementVisitor.visitCallNode(SourceElementVisitor.java:230)
+	at org.jrubyparser.ast.CallNode.accept(CallNode.java:70)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitNewlineNode(InOrderVisitor.java:525)
+	at org.jrubyparser.ast.NewlineNode.accept(NewlineNode.java:67)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:37)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitDefnNode(InOrderVisitor.java:299)
+	at com.aptana.ruby.core.ast.SourceElementVisitor.visitDefnNode(SourceElementVisitor.java:346)
+	at org.jrubyparser.ast.DefnNode.accept(DefnNode.java:51)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitNewlineNode(InOrderVisitor.java:525)
+	at org.jrubyparser.ast.NewlineNode.accept(NewlineNode.java:67)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:37)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitModuleNode(InOrderVisitor.java:517)
+	at com.aptana.ruby.core.ast.SourceElementVisitor.visitModuleNode(SourceElementVisitor.java:824)
+	at org.jrubyparser.ast.ModuleNode.accept(ModuleNode.java:66)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitNewlineNode(InOrderVisitor.java:525)
+	at org.jrubyparser.ast.NewlineNode.accept(NewlineNode.java:67)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitModuleNode(InOrderVisitor.java:517)
+	at com.aptana.ruby.core.ast.SourceElementVisitor.visitModuleNode(SourceElementVisitor.java:824)
+	at org.jrubyparser.ast.ModuleNode.accept(ModuleNode.java:66)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitNewlineNode(InOrderVisitor.java:525)
+	at org.jrubyparser.ast.NewlineNode.accept(NewlineNode.java:67)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:37)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitRootNode(InOrderVisitor.java:668)
+	at com.aptana.ruby.core.ast.SourceElementVisitor.visitRootNode(SourceElementVisitor.java:848)
+	at org.jrubyparser.ast.RootNode.accept(RootNode.java:84)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.internal.core.index.RubyFileIndexingParticipant.indexAST(RubyFileIndexingParticipant.java:73)
+	at com.aptana.ruby.internal.core.index.RubyFileIndexingParticipant.indexSource(RubyFileIndexingParticipant.java:61)
+	at com.aptana.ruby.internal.core.index.RubyFileIndexingParticipant.index(RubyFileIndexingParticipant.java:37)
+	at com.aptana.index.core.IndexRequestJob.indexFileStores(IndexRequestJob.java:205)
+	at com.aptana.index.core.IndexContainerJob.run(IndexContainerJob.java:114)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.aptana.ruby.core 4 0 2016-02-21 17:19:38.872
+!MESSAGE (Build 3.6.1.201410201044) [ERROR]  Not supported yet.
+!STACK 0
+java.lang.UnsupportedOperationException: Not supported yet.
+	at org.jrubyparser.ast.LambdaNode.accept(LambdaNode.java:58)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:37)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitHashNode(InOrderVisitor.java:414)
+	at org.jrubyparser.ast.HashNode.accept(HashNode.java:57)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitCallNode(InOrderVisitor.java:189)
+	at com.aptana.ruby.core.ast.SourceElementVisitor.visitCallNode(SourceElementVisitor.java:230)
+	at org.jrubyparser.ast.CallNode.accept(CallNode.java:70)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitLocalAsgnNode(InOrderVisitor.java:456)
+	at com.aptana.ruby.core.ast.SourceElementVisitor.visitLocalAsgnNode(SourceElementVisitor.java:839)
+	at org.jrubyparser.ast.LocalAsgnNode.accept(LocalAsgnNode.java:62)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitNewlineNode(InOrderVisitor.java:525)
+	at org.jrubyparser.ast.NewlineNode.accept(NewlineNode.java:67)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:37)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitDefnNode(InOrderVisitor.java:299)
+	at com.aptana.ruby.core.ast.SourceElementVisitor.visitDefnNode(SourceElementVisitor.java:346)
+	at org.jrubyparser.ast.DefnNode.accept(DefnNode.java:51)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitNewlineNode(InOrderVisitor.java:525)
+	at org.jrubyparser.ast.NewlineNode.accept(NewlineNode.java:67)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:37)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitModuleNode(InOrderVisitor.java:517)
+	at com.aptana.ruby.core.ast.SourceElementVisitor.visitModuleNode(SourceElementVisitor.java:824)
+	at org.jrubyparser.ast.ModuleNode.accept(ModuleNode.java:66)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitNewlineNode(InOrderVisitor.java:525)
+	at org.jrubyparser.ast.NewlineNode.accept(NewlineNode.java:67)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitModuleNode(InOrderVisitor.java:517)
+	at com.aptana.ruby.core.ast.SourceElementVisitor.visitModuleNode(SourceElementVisitor.java:824)
+	at org.jrubyparser.ast.ModuleNode.accept(ModuleNode.java:66)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitNewlineNode(InOrderVisitor.java:525)
+	at org.jrubyparser.ast.NewlineNode.accept(NewlineNode.java:67)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:37)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitRootNode(InOrderVisitor.java:668)
+	at com.aptana.ruby.core.ast.SourceElementVisitor.visitRootNode(SourceElementVisitor.java:848)
+	at org.jrubyparser.ast.RootNode.accept(RootNode.java:84)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.internal.core.index.RubyFileIndexingParticipant.indexAST(RubyFileIndexingParticipant.java:73)
+	at com.aptana.ruby.internal.core.index.RubyFileIndexingParticipant.indexSource(RubyFileIndexingParticipant.java:61)
+	at com.aptana.ruby.internal.core.index.RubyFileIndexingParticipant.index(RubyFileIndexingParticipant.java:37)
+	at com.aptana.index.core.IndexRequestJob.indexFileStores(IndexRequestJob.java:205)
+	at com.aptana.index.core.IndexContainerJob.run(IndexContainerJob.java:114)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.aptana.ruby.core 4 0 2016-02-21 17:19:41.668
+!MESSAGE (Build 3.6.1.201410201044) [ERROR]  Not supported yet.
+!STACK 0
+java.lang.UnsupportedOperationException: Not supported yet.
+	at org.jrubyparser.ast.LambdaNode.accept(LambdaNode.java:58)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:37)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitAttrAssignNode(InOrderVisitor.java:96)
+	at org.jrubyparser.ast.AttrAssignNode.accept(AttrAssignNode.java:67)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitNewlineNode(InOrderVisitor.java:525)
+	at org.jrubyparser.ast.NewlineNode.accept(NewlineNode.java:67)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:37)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitDefnNode(InOrderVisitor.java:299)
+	at com.aptana.ruby.core.ast.SourceElementVisitor.visitDefnNode(SourceElementVisitor.java:346)
+	at org.jrubyparser.ast.DefnNode.accept(DefnNode.java:51)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitNewlineNode(InOrderVisitor.java:525)
+	at org.jrubyparser.ast.NewlineNode.accept(NewlineNode.java:67)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:37)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitClassNode(InOrderVisitor.java:213)
+	at com.aptana.ruby.core.ast.SourceElementVisitor.visitClassNode(SourceElementVisitor.java:260)
+	at org.jrubyparser.ast.ClassNode.accept(ClassNode.java:68)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitNewlineNode(InOrderVisitor.java:525)
+	at org.jrubyparser.ast.NewlineNode.accept(NewlineNode.java:67)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:37)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitClassNode(InOrderVisitor.java:213)
+	at com.aptana.ruby.core.ast.SourceElementVisitor.visitClassNode(SourceElementVisitor.java:260)
+	at org.jrubyparser.ast.ClassNode.accept(ClassNode.java:68)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitNewlineNode(InOrderVisitor.java:525)
+	at org.jrubyparser.ast.NewlineNode.accept(NewlineNode.java:67)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitRootNode(InOrderVisitor.java:668)
+	at com.aptana.ruby.core.ast.SourceElementVisitor.visitRootNode(SourceElementVisitor.java:848)
+	at org.jrubyparser.ast.RootNode.accept(RootNode.java:84)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.internal.core.index.RubyFileIndexingParticipant.indexAST(RubyFileIndexingParticipant.java:73)
+	at com.aptana.ruby.internal.core.index.RubyFileIndexingParticipant.indexSource(RubyFileIndexingParticipant.java:61)
+	at com.aptana.ruby.internal.core.index.RubyFileIndexingParticipant.index(RubyFileIndexingParticipant.java:37)
+	at com.aptana.index.core.IndexRequestJob.indexFileStores(IndexRequestJob.java:205)
+	at com.aptana.index.core.IndexContainerJob.run(IndexContainerJob.java:114)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.aptana.ruby.core 4 0 2016-02-21 17:19:42.039
+!MESSAGE (Build 3.6.1.201410201044) [ERROR]  Not supported yet.
+!STACK 0
+java.lang.UnsupportedOperationException: Not supported yet.
+	at org.jrubyparser.ast.LambdaNode.accept(LambdaNode.java:58)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:37)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitHashNode(InOrderVisitor.java:414)
+	at org.jrubyparser.ast.HashNode.accept(HashNode.java:57)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitConstDeclNode(InOrderVisitor.java:158)
+	at com.aptana.ruby.core.ast.SourceElementVisitor.visitConstDeclNode(SourceElementVisitor.java:302)
+	at org.jrubyparser.ast.ConstDeclNode.accept(ConstDeclNode.java:62)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitNewlineNode(InOrderVisitor.java:525)
+	at org.jrubyparser.ast.NewlineNode.accept(NewlineNode.java:67)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:37)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitClassNode(InOrderVisitor.java:213)
+	at com.aptana.ruby.core.ast.SourceElementVisitor.visitClassNode(SourceElementVisitor.java:260)
+	at org.jrubyparser.ast.ClassNode.accept(ClassNode.java:68)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitNewlineNode(InOrderVisitor.java:525)
+	at org.jrubyparser.ast.NewlineNode.accept(NewlineNode.java:67)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:37)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitModuleNode(InOrderVisitor.java:517)
+	at com.aptana.ruby.core.ast.SourceElementVisitor.visitModuleNode(SourceElementVisitor.java:824)
+	at org.jrubyparser.ast.ModuleNode.accept(ModuleNode.java:66)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitNewlineNode(InOrderVisitor.java:525)
+	at org.jrubyparser.ast.NewlineNode.accept(NewlineNode.java:67)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:37)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitRootNode(InOrderVisitor.java:668)
+	at com.aptana.ruby.core.ast.SourceElementVisitor.visitRootNode(SourceElementVisitor.java:848)
+	at org.jrubyparser.ast.RootNode.accept(RootNode.java:84)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.internal.core.index.RubyFileIndexingParticipant.indexAST(RubyFileIndexingParticipant.java:73)
+	at com.aptana.ruby.internal.core.index.RubyFileIndexingParticipant.indexSource(RubyFileIndexingParticipant.java:61)
+	at com.aptana.ruby.internal.core.index.RubyFileIndexingParticipant.index(RubyFileIndexingParticipant.java:37)
+	at com.aptana.index.core.IndexRequestJob.indexFileStores(IndexRequestJob.java:205)
+	at com.aptana.index.core.IndexContainerJob.run(IndexContainerJob.java:114)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.aptana.ruby.core 4 0 2016-02-21 17:19:54.665
+!MESSAGE (Build 3.6.1.201410201044) [ERROR]  Not supported yet.
+!STACK 0
+java.lang.UnsupportedOperationException: Not supported yet.
+	at org.jrubyparser.ast.LambdaNode.accept(LambdaNode.java:58)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:37)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitFCallNode(InOrderVisitor.java:350)
+	at com.aptana.ruby.core.ast.SourceElementVisitor.visitFCallNode(SourceElementVisitor.java:609)
+	at org.jrubyparser.ast.FCallNode.accept(FCallNode.java:66)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitNewlineNode(InOrderVisitor.java:525)
+	at org.jrubyparser.ast.NewlineNode.accept(NewlineNode.java:67)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitIterNode(InOrderVisitor.java:448)
+	at com.aptana.ruby.core.ast.SourceElementVisitor.visitIterNode(SourceElementVisitor.java:805)
+	at org.jrubyparser.ast.IterNode.accept(IterNode.java:71)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitCallNode(InOrderVisitor.java:195)
+	at com.aptana.ruby.core.ast.SourceElementVisitor.visitCallNode(SourceElementVisitor.java:230)
+	at org.jrubyparser.ast.CallNode.accept(CallNode.java:70)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitDAsgnNode(InOrderVisitor.java:243)
+	at com.aptana.ruby.core.ast.SourceElementVisitor.visitDAsgnNode(SourceElementVisitor.java:322)
+	at org.jrubyparser.ast.DAsgnNode.accept(DAsgnNode.java:62)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitNewlineNode(InOrderVisitor.java:525)
+	at org.jrubyparser.ast.NewlineNode.accept(NewlineNode.java:67)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:37)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitIterNode(InOrderVisitor.java:448)
+	at com.aptana.ruby.core.ast.SourceElementVisitor.visitIterNode(SourceElementVisitor.java:805)
+	at org.jrubyparser.ast.IterNode.accept(IterNode.java:71)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitCallNode(InOrderVisitor.java:195)
+	at com.aptana.ruby.core.ast.SourceElementVisitor.visitCallNode(SourceElementVisitor.java:230)
+	at org.jrubyparser.ast.CallNode.accept(CallNode.java:70)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitNewlineNode(InOrderVisitor.java:525)
+	at org.jrubyparser.ast.NewlineNode.accept(NewlineNode.java:67)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:37)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitClassNode(InOrderVisitor.java:213)
+	at com.aptana.ruby.core.ast.SourceElementVisitor.visitClassNode(SourceElementVisitor.java:260)
+	at org.jrubyparser.ast.ClassNode.accept(ClassNode.java:68)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitNewlineNode(InOrderVisitor.java:525)
+	at org.jrubyparser.ast.NewlineNode.accept(NewlineNode.java:67)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:37)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitModuleNode(InOrderVisitor.java:517)
+	at com.aptana.ruby.core.ast.SourceElementVisitor.visitModuleNode(SourceElementVisitor.java:824)
+	at org.jrubyparser.ast.ModuleNode.accept(ModuleNode.java:66)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitNewlineNode(InOrderVisitor.java:525)
+	at org.jrubyparser.ast.NewlineNode.accept(NewlineNode.java:67)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitRootNode(InOrderVisitor.java:668)
+	at com.aptana.ruby.core.ast.SourceElementVisitor.visitRootNode(SourceElementVisitor.java:848)
+	at org.jrubyparser.ast.RootNode.accept(RootNode.java:84)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.internal.core.index.RubyFileIndexingParticipant.indexAST(RubyFileIndexingParticipant.java:73)
+	at com.aptana.ruby.internal.core.index.RubyFileIndexingParticipant.indexSource(RubyFileIndexingParticipant.java:61)
+	at com.aptana.ruby.internal.core.index.RubyFileIndexingParticipant.index(RubyFileIndexingParticipant.java:37)
+	at com.aptana.index.core.IndexRequestJob.indexFileStores(IndexRequestJob.java:205)
+	at com.aptana.index.core.IndexContainerJob.run(IndexContainerJob.java:114)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.aptana.ruby.core 4 0 2016-02-21 17:19:58.888
+!MESSAGE (Build 3.6.1.201410201044) [ERROR]  Not supported yet.
+!STACK 0
+java.lang.UnsupportedOperationException: Not supported yet.
+	at org.jrubyparser.ast.LambdaNode.accept(LambdaNode.java:58)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:37)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitHashNode(InOrderVisitor.java:414)
+	at org.jrubyparser.ast.HashNode.accept(HashNode.java:57)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:37)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitCallNode(InOrderVisitor.java:193)
+	at com.aptana.ruby.core.ast.SourceElementVisitor.visitCallNode(SourceElementVisitor.java:230)
+	at org.jrubyparser.ast.CallNode.accept(CallNode.java:70)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitLocalAsgnNode(InOrderVisitor.java:456)
+	at com.aptana.ruby.core.ast.SourceElementVisitor.visitLocalAsgnNode(SourceElementVisitor.java:839)
+	at org.jrubyparser.ast.LocalAsgnNode.accept(LocalAsgnNode.java:62)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitIfNode(InOrderVisitor.java:438)
+	at org.jrubyparser.ast.IfNode.accept(IfNode.java:65)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitNewlineNode(InOrderVisitor.java:525)
+	at org.jrubyparser.ast.NewlineNode.accept(NewlineNode.java:67)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:37)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitDefnNode(InOrderVisitor.java:299)
+	at com.aptana.ruby.core.ast.SourceElementVisitor.visitDefnNode(SourceElementVisitor.java:346)
+	at org.jrubyparser.ast.DefnNode.accept(DefnNode.java:51)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitNewlineNode(InOrderVisitor.java:525)
+	at org.jrubyparser.ast.NewlineNode.accept(NewlineNode.java:67)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:37)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitClassNode(InOrderVisitor.java:213)
+	at com.aptana.ruby.core.ast.SourceElementVisitor.visitClassNode(SourceElementVisitor.java:260)
+	at org.jrubyparser.ast.ClassNode.accept(ClassNode.java:68)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitNewlineNode(InOrderVisitor.java:525)
+	at org.jrubyparser.ast.NewlineNode.accept(NewlineNode.java:67)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitRootNode(InOrderVisitor.java:668)
+	at com.aptana.ruby.core.ast.SourceElementVisitor.visitRootNode(SourceElementVisitor.java:848)
+	at org.jrubyparser.ast.RootNode.accept(RootNode.java:84)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.internal.core.index.RubyFileIndexingParticipant.indexAST(RubyFileIndexingParticipant.java:73)
+	at com.aptana.ruby.internal.core.index.RubyFileIndexingParticipant.indexSource(RubyFileIndexingParticipant.java:61)
+	at com.aptana.ruby.internal.core.index.RubyFileIndexingParticipant.index(RubyFileIndexingParticipant.java:37)
+	at com.aptana.index.core.IndexRequestJob.indexFileStores(IndexRequestJob.java:205)
+	at com.aptana.index.core.IndexContainerJob.run(IndexContainerJob.java:114)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.ltk.ui.refactoring 4 10000 2016-02-21 18:05:00.597
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:816)
+	at org.eclipse.core.internal.resources.Project.delete(Project.java:344)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:160)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:258)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2345)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:306)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:92)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:218)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2345)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:87)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+Contains: Could not delete 'F:\pruebas\MailPrueba'.
+org.eclipse.core.runtime.CoreException: Problems encountered while deleting files.
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:131)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteProject(ResourceTree.java:437)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteProject(ResourceTree.java:837)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1981)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:803)
+	at org.eclipse.core.internal.resources.Project.delete(Project.java:344)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:160)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:258)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2345)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:306)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:92)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:218)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2345)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:87)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+Contains: Could not delete: F:\pruebas\MailPrueba.
+Contains: Could not delete 'F:\pruebas\MailPrueba'.
+!SUBENTRY 1 org.eclipse.core.resources 4 273 2016-02-21 18:05:00.598
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 2 org.eclipse.core.resources 4 273 2016-02-21 18:05:00.599
+!MESSAGE Could not delete 'F:\pruebas\MailPrueba'.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Problems encountered while deleting files.
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:131)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteProject(ResourceTree.java:437)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteProject(ResourceTree.java:837)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1981)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:803)
+	at org.eclipse.core.internal.resources.Project.delete(Project.java:344)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:160)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:258)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2345)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:306)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:92)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:218)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2345)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:87)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+Contains: Could not delete: F:\pruebas\MailPrueba.
+!SUBENTRY 3 org.eclipse.core.filesystem 4 273 2016-02-21 18:05:00.599
+!MESSAGE Problems encountered while deleting files.
+!SUBENTRY 4 org.eclipse.core.filesystem 4 273 2016-02-21 18:05:00.599
+!MESSAGE Could not delete: F:\pruebas\MailPrueba.
+!SUBENTRY 2 org.eclipse.core.resources 4 273 2016-02-21 18:05:00.599
+!MESSAGE Could not delete 'F:\pruebas\MailPrueba'.
+
+!ENTRY com.aptana.git.core 4 0 2016-02-21 18:06:16.498
+!MESSAGE (Build 3.6.1.201410201044) [ERROR]  Errors occurred while grabbing changed file listings
+
+!ENTRY org.eclipse.ui.navigator 4 0 2016-02-21 19:39:57.600
+!MESSAGE Cannot find navigator content extension (using triggerPoints) for object "<null>" parent path: "F/MailPrueba/lib/tasks".  Check that you have an expression for this object in a navigatorContent triggerPoints or enablement.
+
+!ENTRY org.eclipse.ui.navigator 4 0 2016-02-21 19:39:57.616
+!MESSAGE Cannot find navigator content extension (using triggerPoints) for object "<null>" parent path: "F/MailPrueba/lib/tasks".  Check that you have an expression for this object in a navigatorContent triggerPoints or enablement.
+
+!ENTRY org.eclipse.ui 4 0 2016-02-21 19:51:45.327
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Failed to execute runnable (org.jruby.exceptions.RaiseException: (Errno::EINVAL) =::)
+	at org.eclipse.swt.SWT.error(SWT.java:4397)
+	at org.eclipse.swt.SWT.error(SWT.java:4312)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:138)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4145)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3762)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1113)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:140)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:611)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at com.aptana.rcp.IDEApplication.start(IDEApplication.java:126)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+Caused by: org.jruby.exceptions.RaiseException: (Errno::EINVAL) =::
+!SESSION 2016-02-22 09:06:58.332 -----------------------------------------------
+eclipse.buildId=3.6.1.201410201044
+java.version=1.8.0_73
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_ES
+Command-line arguments:  -os win32 -ws win32 -arch x86 -data C:\Users\Arranque 1\Desktop\pruebas-master
+
+!ENTRY com.aptana.ruby.core 4 0 2016-02-22 09:07:01.795
+!MESSAGE (eval):1:in `block in get_classes': Use RbConfig instead of obsolete and deprecated Config.
+(eval):1: warning: variable $= is no longer effective
+(eval):1: warning: variable $KCODE is no longer effective
+(eval):1: warning: variable $KCODE is no longer effective
+C:/AptanaStudio/configuration/org.eclipse.osgi/bundles/90/1/.cp/ruby/core_stubber.rb:180:in `eval': Is a directory @ rb_sysopen - C:\Users\Arranque 1\Desktop\pruebas-master\.metadata\.plugins\com.aptana.ruby.core\1555772558\4 (Errno::EISDIR)
+	from C:/AptanaStudio/configuration/org.eclipse.osgi/bundles/90/1/.cp/ruby/core_stubber.rb:180:in `eval'
+	from C:/AptanaStudio/configuration/org.eclipse.osgi/bundles/90/1/.cp/ruby/core_stubber.rb:180:in `block (3 levels) in <main>'
+	from C:/AptanaStudio/configuration/org.eclipse.osgi/bundles/90/1/.cp/ruby/core_stubber.rb:179:in `each'
+	from C:/AptanaStudio/configuration/org.eclipse.osgi/bundles/90/1/.cp/ruby/core_stubber.rb:179:in `block (2 levels) in <main>'
+	from C:/AptanaStudio/configuration/org.eclipse.osgi/bundles/90/1/.cp/ruby/core_stubber.rb:178:in `open'
+	from C:/AptanaStudio/configuration/org.eclipse.osgi/bundles/90/1/.cp/ruby/core_stubber.rb:178:in `block in <main>'
+	from C:/AptanaStudio/configuration/org.eclipse.osgi/bundles/90/1/.cp/ruby/core_stubber.rb:152:in `each'
+	from C:/AptanaStudio/configuration/org.eclipse.osgi/bundles/90/1/.cp/ruby/core_stubber.rb:152:in `<main>'
+
+
+!ENTRY com.aptana.ruby.core 4 0 2016-02-22 10:31:12.586
+!MESSAGE (Build 3.6.1.201410201044) [ERROR]  Expected field decl on top of stack, but was: 
+
+!ENTRY com.aptana.ruby.core 4 0 2016-02-22 10:31:12.586
+!MESSAGE (Build 3.6.1.201410201044) [ERROR]  Expected block on top of stack, but was: to_html()
+
+!ENTRY com.aptana.ruby.core 4 0 2016-02-22 10:31:12.586
+!MESSAGE (Build 3.6.1.201410201044) [ERROR]  Expected method decl on top of stack, but was: Info
+
+!ENTRY com.aptana.ruby.core 4 0 2016-02-22 10:31:12.586
+!MESSAGE (Build 3.6.1.201410201044) [ERROR]  Expected type decl on top of stack, but was: 
+
+!ENTRY com.aptana.ruby.core 4 0 2016-02-22 10:31:12.586
+!MESSAGE (Build 3.6.1.201410201044) [ERROR]  AST stack was empty upon exiting script, but should have contained the script.
+
+!ENTRY org.eclipse.ui 4 0 2016-02-22 10:44:08.172
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Failed to execute runnable (org.jruby.exceptions.RaiseException: (Errno::EINVAL) =::)
+	at org.eclipse.swt.SWT.error(SWT.java:4397)
+	at org.eclipse.swt.SWT.error(SWT.java:4312)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:138)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4145)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3762)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1113)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:140)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:611)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at com.aptana.rcp.IDEApplication.start(IDEApplication.java:126)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+Caused by: org.jruby.exceptions.RaiseException: (Errno::EINVAL) =::
+!SESSION 2016-02-22 11:04:38.443 -----------------------------------------------
+eclipse.buildId=3.6.1.201410201044
+java.version=1.8.0_73
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_ES
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY com.aptana.ruby.core 4 0 2016-02-22 11:04:41.775
+!MESSAGE (eval):1:in `block in get_classes': Use RbConfig instead of obsolete and deprecated Config.
+(eval):1: warning: variable $= is no longer effective
+(eval):1: warning: variable $KCODE is no longer effective
+(eval):1: warning: variable $KCODE is no longer effective
+C:/AptanaStudio/configuration/org.eclipse.osgi/bundles/90/1/.cp/ruby/core_stubber.rb:180:in `eval': Is a directory @ rb_sysopen - C:\Users\Arranque 1\Desktop\pruebas-master\.metadata\.plugins\com.aptana.ruby.core\1555772558\4 (Errno::EISDIR)
+	from C:/AptanaStudio/configuration/org.eclipse.osgi/bundles/90/1/.cp/ruby/core_stubber.rb:180:in `eval'
+	from C:/AptanaStudio/configuration/org.eclipse.osgi/bundles/90/1/.cp/ruby/core_stubber.rb:180:in `block (3 levels) in <main>'
+	from C:/AptanaStudio/configuration/org.eclipse.osgi/bundles/90/1/.cp/ruby/core_stubber.rb:179:in `each'
+	from C:/AptanaStudio/configuration/org.eclipse.osgi/bundles/90/1/.cp/ruby/core_stubber.rb:179:in `block (2 levels) in <main>'
+	from C:/AptanaStudio/configuration/org.eclipse.osgi/bundles/90/1/.cp/ruby/core_stubber.rb:178:in `open'
+	from C:/AptanaStudio/configuration/org.eclipse.osgi/bundles/90/1/.cp/ruby/core_stubber.rb:178:in `block in <main>'
+	from C:/AptanaStudio/configuration/org.eclipse.osgi/bundles/90/1/.cp/ruby/core_stubber.rb:152:in `each'
+	from C:/AptanaStudio/configuration/org.eclipse.osgi/bundles/90/1/.cp/ruby/core_stubber.rb:152:in `<main>'
+
+
+!ENTRY com.aptana.ruby.core 4 0 2016-02-22 11:04:45.308
+!MESSAGE (Build 3.6.1.201410201044) [ERROR]  Not supported yet.
+!STACK 0
+java.lang.UnsupportedOperationException: Not supported yet.
+	at org.jrubyparser.ast.LambdaNode.accept(LambdaNode.java:58)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:37)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitAttrAssignNode(InOrderVisitor.java:96)
+	at org.jrubyparser.ast.AttrAssignNode.accept(AttrAssignNode.java:67)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitNewlineNode(InOrderVisitor.java:525)
+	at org.jrubyparser.ast.NewlineNode.accept(NewlineNode.java:67)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:37)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitDefnNode(InOrderVisitor.java:299)
+	at com.aptana.ruby.core.ast.SourceElementVisitor.visitDefnNode(SourceElementVisitor.java:346)
+	at org.jrubyparser.ast.DefnNode.accept(DefnNode.java:51)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitNewlineNode(InOrderVisitor.java:525)
+	at org.jrubyparser.ast.NewlineNode.accept(NewlineNode.java:67)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:37)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitClassNode(InOrderVisitor.java:213)
+	at com.aptana.ruby.core.ast.SourceElementVisitor.visitClassNode(SourceElementVisitor.java:260)
+	at org.jrubyparser.ast.ClassNode.accept(ClassNode.java:68)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitNewlineNode(InOrderVisitor.java:525)
+	at org.jrubyparser.ast.NewlineNode.accept(NewlineNode.java:67)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:37)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitClassNode(InOrderVisitor.java:213)
+	at com.aptana.ruby.core.ast.SourceElementVisitor.visitClassNode(SourceElementVisitor.java:260)
+	at org.jrubyparser.ast.ClassNode.accept(ClassNode.java:68)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitNewlineNode(InOrderVisitor.java:525)
+	at org.jrubyparser.ast.NewlineNode.accept(NewlineNode.java:67)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.core.ast.InOrderVisitor.visitRootNode(InOrderVisitor.java:668)
+	at com.aptana.ruby.core.ast.SourceElementVisitor.visitRootNode(SourceElementVisitor.java:848)
+	at org.jrubyparser.ast.RootNode.accept(RootNode.java:84)
+	at com.aptana.ruby.core.ast.AbstractVisitor.acceptNode(AbstractVisitor.java:53)
+	at com.aptana.ruby.internal.core.index.RubyFileIndexingParticipant.indexAST(RubyFileIndexingParticipant.java:73)
+	at com.aptana.ruby.internal.core.index.RubyFileIndexingParticipant.indexSource(RubyFileIndexingParticipant.java:61)
+	at com.aptana.ruby.internal.core.index.RubyFileIndexingParticipant.index(RubyFileIndexingParticipant.java:37)
+	at com.aptana.index.core.IndexRequestJob.indexFileStores(IndexRequestJob.java:205)
+	at com.aptana.index.core.IndexContainerJob.run(IndexContainerJob.java:114)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.core.jobs 2 2 2016-02-22 11:09:25.793
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.tm.internal.terminal.emulator.VT100TerminalControl$1
+!SESSION 2016-02-22 11:19:49.599 -----------------------------------------------
+eclipse.buildId=3.6.1.201410201044
+java.version=1.8.0_73
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_ES
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY com.aptana.ruby.core 4 0 2016-02-22 11:19:52.657
+!MESSAGE (eval):1:in `block in get_classes': Use RbConfig instead of obsolete and deprecated Config.
+(eval):1: warning: variable $= is no longer effective
+(eval):1: warning: variable $KCODE is no longer effective
+(eval):1: warning: variable $KCODE is no longer effective
+C:/AptanaStudio/configuration/org.eclipse.osgi/bundles/90/1/.cp/ruby/core_stubber.rb:180:in `eval': Is a directory @ rb_sysopen - C:\Users\Arranque 1\Desktop\pruebas-master\.metadata\.plugins\com.aptana.ruby.core\1555772558\4 (Errno::EISDIR)
+	from C:/AptanaStudio/configuration/org.eclipse.osgi/bundles/90/1/.cp/ruby/core_stubber.rb:180:in `eval'
+	from C:/AptanaStudio/configuration/org.eclipse.osgi/bundles/90/1/.cp/ruby/core_stubber.rb:180:in `block (3 levels) in <main>'
+	from C:/AptanaStudio/configuration/org.eclipse.osgi/bundles/90/1/.cp/ruby/core_stubber.rb:179:in `each'
+	from C:/AptanaStudio/configuration/org.eclipse.osgi/bundles/90/1/.cp/ruby/core_stubber.rb:179:in `block (2 levels) in <main>'
+	from C:/AptanaStudio/configuration/org.eclipse.osgi/bundles/90/1/.cp/ruby/core_stubber.rb:178:in `open'
+	from C:/AptanaStudio/configuration/org.eclipse.osgi/bundles/90/1/.cp/ruby/core_stubber.rb:178:in `block in <main>'
+	from C:/AptanaStudio/configuration/org.eclipse.osgi/bundles/90/1/.cp/ruby/core_stubber.rb:152:in `each'
+	from C:/AptanaStudio/configuration/org.eclipse.osgi/bundles/90/1/.cp/ruby/core_stubber.rb:152:in `<main>'
+

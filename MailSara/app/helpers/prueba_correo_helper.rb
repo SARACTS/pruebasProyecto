@@ -1,0 +1,2 @@
+module PruebaCorreoHelper
+end

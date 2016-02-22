@@ -1,0 +1,17 @@
+<form action="/user/create">
+	Usuario: <input type="text" name="user" />
+	E-mail: <input type="text" name="email" />
+	<input type="submit" value="Crear">
+</form>
+<table>
+	<tr>
+		<th>Nombre</th>
+		<th>Email</th>
+	</tr>
+	<% for user in @users %>
+	<tr>
+		<td><%=user.user%></td>
+		<td><%=user.email%></td>
+	</tr>
+	<% end %>
+</table>

@@ -1,0 +1,19 @@
+class UserController < ApplicationController
+  
+  def index
+    @users = User.all
+  end
+  
+  def create
+    @user = User.new
+    @user.user = params[:user]
+    @user.email = params[:email]
+    @user.save 
+    UserMailer.welcome_email(@user).deliver_now
+    puts "Usuario #{@user.user} creado"
+    
+    render :index
+  end
+  
+end
+

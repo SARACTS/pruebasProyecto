@@ -1,0 +1,2 @@
+class CorreoController < ApplicationController
+end

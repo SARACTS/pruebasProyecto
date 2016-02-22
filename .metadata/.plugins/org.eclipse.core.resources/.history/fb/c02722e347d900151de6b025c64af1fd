@@ -1,0 +1,4 @@
+class ActionCorreo < ApplicationMailer
+  default from: 'sara@jlcortes.es'
+end
+
